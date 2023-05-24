@@ -60,13 +60,13 @@
     border-radius: 16px;    
 }
 .hero-btn-outline{
-    border: 2px solid #fefefe;
+    border: 2px solid black;
     color: #fefefe;
     background-color: transparent;
 }
 
-.hero btn:hover{
-    background-color: #fefefe;
+.hero-btn:hover{
+    background-color: red;
 }
 
 .about-box{
