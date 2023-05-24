@@ -134,7 +134,11 @@ ul li {
     font-weight: bold;
 }
 
-p {
+.p-address {
+    font-size: 24px;
+}
+
+.p-tel {
     font-size: 24px;
 }
 
