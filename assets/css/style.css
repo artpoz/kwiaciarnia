@@ -66,7 +66,7 @@
 }
 
 .hero btn:hover{
-    background-color: lightgoldenrodyellow;
+    background-color: #fefefe;
 }
 
 .about-box{
@@ -94,7 +94,7 @@
     margin: 10px;        
 }
 
-.image-box2 {
+.image-box-reverse {
     width: 640px;
     height: 427px;
     background-image: url("../img/about_us_2.jpg");    
