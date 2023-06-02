@@ -16,3 +16,137 @@
     border-radius: 5px;
     background-color: greenyellow;
     cursor: pointer; }
+
+.navlist {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: orange; }
+
+.navlist-li {
+  margin: 20px 20px 20px 20px; }
+
+.list-item-link {
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: black;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.hero {
+  background-color: #e67e22;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/hero-background.jpg");
+  background-size: cover; }
+
+.hero-text-box {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: black;
+  background-color: orange;
+  padding: 12px;
+  border-radius: 20px; }
+
+.hero-text-box .main {
+  font-size: 48px; }
+
+.hero-text-box .sub-main {
+  font-size: 22px; }
+
+.hero-btn {
+  margin: 8px;
+  padding: 8px 16px;
+  background-color: #efefef;
+  box-shadow: none;
+  outline: none;
+  border: 2px solid black;
+  color: black;
+  border-radius: 16px; }
+
+.hero-btn-outline {
+  border: 2px solid black;
+  color: #fefefe;
+  background-color: transparent; }
+
+.hero-btn:hover {
+  background-color: red; }
+
+.about-box {
+  display: flex;
+  justify-content: center; }
+
+.about-box-reverse {
+  display: flex;
+  justify-content: center; }
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin: 10px;
+  background-color: orange; }
+
+.image-box {
+  width: 640px;
+  height: 640px;
+  background-image: url("../img/section_about.jpg");
+  margin: 10px; }
+
+.image-box-reverse {
+  width: 640px;
+  height: 427px;
+  background-image: url("../img/about_us_2.jpg"); }
+
+.text-box {
+  width: 50%;
+  height: 50vh;
+  margin: 10px 0 10px 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px; }
+  @media screen and (max-width: 1024px) {
+    .text-box {
+      width: 100%;
+      background-color: blue; } }
+
+.product-img {
+  width: 33%;
+  height: 50vh; }
+
+.review {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  margin: 20px; }
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: 30px; }
+
+.address {
+  font-weight: bold;
+  font-size: 24px; }
+
+.p-address {
+  font-size: 24px; }
+
+.p-tel {
+  font-size: 24px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  background-color: lightgrey; }
