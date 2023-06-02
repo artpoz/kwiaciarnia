@@ -1,0 +1,25 @@
+$c-accent: #ffffff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    background-color: blue;
+    &__item {
+        background-color: red;
+    }
+}
+
+.movies {
+    padding: 15px;
+    .movies__btn{
+        width: 40px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: greenyellow;
+        cursor: pointer;  // rączka
+    }
+}
