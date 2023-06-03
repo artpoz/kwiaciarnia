@@ -1,55 +1,55 @@
-// console.log("hello world");
-// let a = 7;
-// let b = 8;
-// let c = "7";
-// console.log(a+b);
-// console.log(a*b);
+console.log("hello world");
+let a = 7;
+let b = 8;
+let c = "7";
+console.log(a+b);
+console.log(a*b);
 
-// if (a > b) {
-//     alert("a jest większe niż b")
-// }
+if (a > b) {
+    alert("a jest większe niż b")
+}
 
-// typeof(b);
-// console.log(c+a); //77
+typeof(b);
+console.log(c+a); //77
 
-// let isRaining = false;
+let isRaining = false;
 
-// if (!isRaining){
-//     console.log('Pada deszcze!');    
-// } else {
-//     console.log('Jest słonecznie');
-// }
+if (!isRaining){
+    console.log('Pada deszcze!');    
+} else {
+    console.log('Jest słonecznie');
+}
 
-// if (a == c)  // true - sprowadza do tych samych typów
-// {
-//     console.log("a jest rowne c");
-// }
+if (a == c)  // true - sprowadza do tych samych typów
+{
+    console.log("a jest rowne c");
+}
 
-// if (a === c)  // false
-// {
-//     console.log("a jest rowne c");
-// }
+if (a === c)  // false
+{
+    console.log("a jest rowne c");
+}
 
-// function getWeather() {
-//     if (isRaining){
-//         console.log('Pada deszcze!');    
-//     } else {
-//         console.log('Jest słonecznie');
-//     }
+function getWeather() {
+    if (isRaining){
+        console.log('Pada deszcze!');    
+    } else {
+        console.log('Jest słonecznie');
+    }
 
-//     isRaining = !isRaining;
-// }
+    isRaining = !isRaining;
+}
 
-// getWeather();
+getWeather();
 
-// const btn = document.getElementById("rainBtn");
+const btn = document.getElementById("rainBtn");
 
-// const nav = document.getElementById("nav");
+const nav = document.getElementById("nav");
 
-// btn.addEventListener('click', () => {
-//     getWeather();
-//     nav.style.backgroundColor = "#ffffff";
-// });
+btn.addEventListener('click', () => {
+    getWeather();
+    nav.style.backgroundColor = "black";
+});
 
 // let tax = 1.23;
 
@@ -163,13 +163,13 @@ const movies = [
 let title = document.querySelector('.titleOfFilm');
 let year = document.querySelector('.yearOfProduction');
 let likes = document.querySelector('.likes');
-let btn = document.querySelector('.movies__btn');
+let moviesBtn = document.querySelector('.movies__btn');
 
 title.innerHTML = movies[0].title;
 year.innerHTML = movies[0].yearOfProdaction;
-likes.innerHTML = movies[0].likes;
+likes.innerHTML = 'Likes ' + movies[0].likes;
 
-btn.addEventListener('click', () => {
+moviesBtn.addEventListener('click', () => {
     movies[0].likes++;
     likes.innerHTML = 'Likes ' + movies[0].likes;
 });
