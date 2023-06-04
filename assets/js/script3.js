@@ -30,10 +30,11 @@ const user = {
     listBox.appendChild(itemList);
     console.log(itemList.innerText = user[i]);
   }
-  const listItem = document.querySelectorAll(".listItem");
-  const ageBtn = document.getElementById("age");
+  const listItem = document.querySelectorAll(".list__item");
+  const ageBtn = document.getElementById("ageButton");
   const image = document.querySelector(".image");
-  ageBtn.addEventListener("click", () => {    
+  ageBtn.addEventListener("click", () => { 
+    console.log(user.age);   
     user.age++;
     listItem[2].innerText = user.age;
     if (user.age >= 18)
