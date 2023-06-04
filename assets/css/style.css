@@ -201,4 +201,10 @@ a {
       padding: 20px 40px;
   
   }
+
+  .image {
+    display: none;
+    width: 200px;
+    height: 200px;
+  }
   
